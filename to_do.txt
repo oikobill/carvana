@@ -1,0 +1,15 @@
+My plan:
+
+1. Make a new directory called small_dataset that has the following organization
+
+small_dataset
+    train <-- Contains 256 by 256 resized images
+    train_masks <-- contains the resized masks
+
+2. Make baseline submission using the average mask. This will help with setting up the infrastructure for the competition.
+
+--------- DONE ABOVE HERE ---------
+
+3. If I want to improve my current submission by a bit, you can average by angle
+
+4. Prototype the U-net implementation
